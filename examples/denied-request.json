@@ -1,0 +1,11 @@
+{
+  "tenantId": "tenant-a",
+  "correlationId": "rank-47-deny-001",
+  "target": "development",
+  "requestedAction": "plan_aks_multi_cluster_gitops_argo",
+  "credentialMode": "workload_identity",
+  "publicNetworkAccess": true,
+  "evidenceFresh": true,
+  "approved": false,
+  "containsSecret": false
+}

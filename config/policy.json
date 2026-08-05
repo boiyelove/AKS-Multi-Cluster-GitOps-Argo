@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "AKS-Multi-Cluster-GitOps-Argo",
+  "rank": 47,
+  "action": "plan_aks_multi_cluster_gitops_argo",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
